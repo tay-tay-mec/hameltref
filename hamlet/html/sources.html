@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Source Collector</title>
+    <link rel="stylesheet" href="../css/source.css">
+</head>
+<body>
+    <header>
+        <h1>Source Collector</h1>
+        <p>Organize and store your sources in one place.</p>
+    </header>
+    <main>
+        <section id="source-form">
+            <h2>Add a New Source</h2>
+            <form id="add-source-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="author">Time:</label>
+                <input type="text" id="author" name="author">
+                
+                <label for="date">Publication Date:</label>
+                <input type="date" id="date" name="date">
+                
+                <label for="url">URL:</label>
+                <input type="url" id="url" name="url" required>
+                
+                <button type="submit">Add Source</button>
+            </form>
+        </section>
+
+        <section id="source-list">
+            <h2>Collected Sources</h2>
+            <ul id="sources">
+                <!-- Sources will appear here -->
+            </ul>
+        </section>
+        <p>
+            Title: hamlet-wiki <br>
+Time: 16:32 <br>
+Date: 2024-11-15 <br>
+URL: https://de.wikipedia.org/wiki/Hamlet<br>
+Time: 16:59<br>
+Date: 2024-11-15<br>
+URL: https://www.history.com/topics/european-history/william-shakespeare<br>
+Title: Wörter<br>
+Time: 17:34<br>
+Date: 2024-11-16<br>
+URL: https://www.superprof.de/blog/das-englisch-von-shakespeare/<br>
+Title: zusammen fassung<br>
+Time: 19:12<br>
+Date: 2024-11-16<br>
+URL: https://clearshakespeare.com/category/hamlet/<br>
+        </p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Source Collector. All Rights Reserved.</p>
+    </footer>
+    <script src="../js/source.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

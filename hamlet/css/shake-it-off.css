@@ -8,7 +8,7 @@ body, html {
 
 
 .background {
-    background-image: url(''); /* Replace with your image URL */
+    background-image: url('../pictures/Shakespeare.png'); /* Replace with your image URL */
     background-size: cover; /* Ensures the image covers the entire area */
     background-position: center;
     width: 100%;
@@ -16,6 +16,51 @@ body, html {
 }
 
 .background a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.stil {
+    background-image: url('../pictures/sprache-stil.png'); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.stil a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.rezeption {
+    background-image: url('../pictures/rezeption.png'); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.rezeption a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.interpretation {
+    background-image: url('../pictures/interpretation.png'); 
+    background-size: cover; 
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.interpretation a {
     display: block;
     width: 100%;
     height: 100%;
