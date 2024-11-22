@@ -19,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const addSourceToDOM = (source) => {
         const li = document.createElement("li");
         li.innerHTML = `
-            <strong>Title:</strong> ${source.title} <br>
-            <strong>Time:</strong> ${source.author || "N/A"} <br>
-            <strong>Date:</strong> ${source.date || "N/A"} <br>
+            <strong>Titel:</strong> ${source.title} <br>
+            <strong>Zeit:</strong> ${source.author || "N/A"} <br>
+            <strong>Datum:</strong> ${source.date || "N/A"} <br>
             <strong>URL:</strong> <a href="${source.url}" target="_blank">${source.url}</a>
         `;
         sourcesList.appendChild(li);
